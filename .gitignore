@@ -1,0 +1,16 @@
+# Binaries
+sqlite3.exe
+sqlite.zip
+sqldiff.exe
+sqlite3_analyzer.exe
+sqlite3_rsync.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+init_db.py
+
+# OS
+.DS_Store
+Thumbs.db
