@@ -1,9 +1,16 @@
 import sqlite3
+import os
 from datetime import datetime
 
 def setup_database():
     # Kết nối (hoặc tạo mới) file database
-    conn = sqlite3.connect('brain.db')
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    db_path = os.path.join(current_dir, '..', 'database', 'brain.db')
+    
+    if not os.path.exists(os.path.dirname(db_path)):
+        db_path = os.path.join(current_dir, 'brain.db')
+
+    conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
     # Tạo bảng knowledge

@@ -2,7 +2,15 @@ import sqlite3
 import os
 
 def get_brain_context(product_name="30 Ngày Video Ngắn Masterclass"):
-    db_path = '/Volumes/Disk1/TAN /my-brain/brain.db'
+    # Xác định đường dẫn tương đối từ vị trí tệp script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Nếu script nằm trong /scripts, database sẽ ở ../database/brain.db
+    # Nếu script nằm ở root (hiện tại), database sẽ ở ./brain.db
+    # Chúng ta sẽ hỗ trợ cả hai trường hợp hoặc giả định cấu trúc mới
+    db_path = os.path.join(current_dir, '..', 'database', 'brain.db')
+    if not os.path.exists(db_path):
+        db_path = os.path.join(current_dir, 'brain.db') # Trường hợp chưa di chuyển
+        
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 

@@ -1,7 +1,13 @@
 import sqlite3
+import os
 
 def update_brain():
-    conn = sqlite3.connect('/Volumes/Disk1/TAN /my-brain/brain.db')
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    db_path = os.path.join(current_dir, '..', 'database', 'brain.db')
+    if not os.path.exists(os.path.dirname(db_path)):
+        db_path = os.path.join(current_dir, 'brain.db')
+        
+    conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
     # 1. Cập nhật Brand Voice chi tiết
