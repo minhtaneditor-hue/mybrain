@@ -1,6 +1,11 @@
 # SOP MASTER: AI CODING AGENT (10-DAY SYSTEM)
 
-Tài liệu này tổng hợp toàn bộ quy trình xây dựng Website, AI Brain và Hệ thống Bán hàng tự động trong 10 ngày. Đây là hướng dẫn tác chiến cho AI Agent để thực thi công việc theo triết lý "AI-First".
+Tài liệu này tổng hợp toàn bộ quy trình xây dựng Website, AI Brain và Hệ thống Bán hàng tự động trong lộ trình **21 Ngày**. Đây là hướng dẫn tác chiến cho AI Agent để thực thi công việc theo triết lý "AI-First".
+
+## 📅 LỘ TRÌNH 21 NGÀY (ROADMAP OVERVIEW)
+- **Tuần 1: Nền tảng & Content** (Day 1 - 7): Setup, Landing Page, AI Brain, Traffic.
+- **Tuần 2: Hệ thống & Chuyển đổi** (Day 8 - 14): AI Sales Agent, SePay, CRM, Optimization.
+- **Tuần 3: Tự động hóa & Scaling** (Day 15 - 21): Advanced Automation, Scaling, Management.
 
 ---
 
@@ -110,6 +115,23 @@ Mỗi tối điền vào 4 cột:
 2. Phản hồi khách hàng?
 3. Đã thêm gì vào Brand Voice hôm nay?
 4. Nhận xét ngắn.
+
+---
+
+## 📈 TẦM NHÌN TIẾP THEO (DAYS 11-21)
+
+### [NGÀY 11] - ĐANG CẬP NHẬT...
+*(Dán nội dung SOP Ngày 11 của bạn vào đây)*
+
+### [NGÀY 12] - ĐANG CẬP NHẬT...
+*(Dán nội dung SOP Ngày 12 của bạn vào đây)*
+
+### [NGÀY 13] - ĐANG CẬP NHẬT...
+
+### [NGÀY 14] - ĐANG CẬP NHẬT...
+
+### [NGÀY 15-21] - GIAI ĐOẠN SCALING & TỰ ĐỘNG HÓA CAO CẤP
+*(Sẽ được mở khóa hàng ngày)*
 
 ---
 
