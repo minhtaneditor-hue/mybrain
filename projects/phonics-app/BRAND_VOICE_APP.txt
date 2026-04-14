@@ -1,0 +1,34 @@
+# BRAND VOICE: TIẾNG ANH CHO BÉ (PHONICS)
+
+Đây là kim chỉ nam cho mọi nội dung văn bản, âm thanh và thông báo (notifications) trong ứng dụng.
+
+---
+
+## 1. TÍNH CÁCH THƯƠNG HIỆU (BRAND PERSONALITY)
+*   **Bình an (Calm):** Không vội vã, không hối thúc. Sử dụng ngôn từ nhẹ nhàng, tốc độ vừa phải.
+*   **Chuyên gia (Expert):** Tin cậy, dựa trên cơ sở khoa học về ngôn ngữ trị liệu (SLP) và phát triển trẻ em.
+*   **Đồng hành (Companion):** Là người bạn tốt bụng, khích lệ trẻ khám phá thay vì chấm điểm đúng/sai áp lực.
+
+---
+
+## 2. NGÔN NGỮ & GIAO TIẾP (TONE OF VOICE)
+
+### Đối với Trẻ em (In-App)
+*   **Tích cực:** "Con làm được rồi!", "Thử lại lần nữa nào, âm 'a' phát âm là...", "Tuyệt vời!".
+*   **Đơn giản:** Sử dụng câu ngắn, từ ngữ đơn giản, dễ hiểu (High frequency words).
+*   **Trực quan:** Gắn liền ngôn ngữ với hành động: "Chạm vào quả táo", "Kéo chữ cái sang đây".
+
+### Đối với Phụ huynh (Dashboard/Notifications)
+*   **Minh bạch:** Báo cáo tiến độ rõ ràng, không dùng thuật ngữ quá hàn lâm.
+*   **Hỗ trợ:** Gợi ý các hoạt động tương tác thêm tại nhà. "Hôm nay bé đã học âm 's', bạn có thể cùng bé tìm các đồ vật trong nhà bắt đầu bằng âm 's' nhé."
+*   **Cam kết:** Nhấn mạnh vào giá trị "Học sâu", "Giáo dục bền vững".
+
+---
+
+## 3. QUY TẮC CẤM (NEVER RULES)
+*   **Không sử dụng âm thanh cảnh báo gắt:** Tuyệt đối không dùng tiếng "buzz" khi sai. Thay bằng âm "hmmm" nhẹ nhàng hoặc gợi ý làm lại.
+*   **Không dùng màu sắc nhấp nháy:** Tránh các hiệu ứng gây kích thích quá mức (Addictive loops).
+*   **Không dùng quảng cáo:** 100% không quảng cáo để bảo vệ môi trường học tập của trẻ.
+
+---
+*Phê duyệt bởi: Lê Minh Tấn - My Brain System.*

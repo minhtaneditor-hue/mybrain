@@ -34,6 +34,23 @@ def update_brain():
                            ("Bài viết mới - " + datetime.now().strftime("%d/%m/%Y"), post_content))
             print("Đã thêm bài viết mới vào Knowledge Base")
 
+    # 3. Cập nhật Master SOP vào knowledge
+    sop_file = os.path.join(current_dir, '..', 'docs', 'sop_master_coding_agent.md')
+    if os.path.exists(sop_file):
+        with open(sop_file, 'r', encoding='utf-8') as f:
+            sop_content = f.read()
+        
+        # Cập nhật hoặc thêm mới SOP Master
+        cursor.execute("SELECT id FROM knowledge WHERE title = 'SOP Master Coding Agent'")
+        res = cursor.fetchone()
+        if res:
+            cursor.execute("UPDATE knowledge SET content = ? WHERE id = ?", (sop_content, res[0]))
+            print("Đã cập nhật SOP Master trong Knowledge Base")
+        else:
+            cursor.execute("INSERT INTO knowledge (title, content) VALUES (?, ?)", 
+                           ("SOP Master Coding Agent", sop_content))
+            print("Đã thêm SOP Master vào Knowledge Base")
+
     conn.commit()
     conn.close()
     print("--- Hoàn tất cập nhật Brain ---")
