@@ -27,3 +27,6 @@ wheels/
 
 # Database
 # brain.db  <-- We want to track this for now as per user request to sync
+
+# Executables
+*.exe
