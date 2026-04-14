@@ -51,6 +51,22 @@ def update_brain():
                            ("SOP Master Coding Agent", sop_content))
             print("Đã thêm SOP Master vào Knowledge Base")
 
+    # 4. Cập nhật Agent Ladi Prompt vào knowledge
+    agent_file = os.path.join(current_dir, '..', 'docs', 'agent_vibe_code_web_ladi.md')
+    if os.path.exists(agent_file):
+        with open(agent_file, 'r', encoding='utf-8') as f:
+            agent_content = f.read()
+        
+        cursor.execute("SELECT id FROM knowledge WHERE title = 'Agent Vibe Code Ladi Prompt'")
+        res = cursor.fetchone()
+        if res:
+            cursor.execute("UPDATE knowledge SET content = ? WHERE id = ?", (agent_content, res[0]))
+            print("Đã cập nhật Agent Ladi Prompt trong Knowledge Base")
+        else:
+            cursor.execute("INSERT INTO knowledge (title, content) VALUES (?, ?)", 
+                           ("Agent Vibe Code Ladi Prompt", agent_content))
+            print("Đã thêm Agent Ladi Prompt vào Knowledge Base")
+
     conn.commit()
     conn.close()
     print("--- Hoàn tất cập nhật Brain ---")
